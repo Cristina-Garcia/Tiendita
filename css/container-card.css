@@ -1,0 +1,52 @@
+.container-products {
+  margin: 1.5rem;
+}
+.card-products {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: 1px solid red;
+  margin: 1.5rem;
+}
+.container-products h2 {
+  font: var(--Headline2);
+  padding: 0;
+  margin: 1.5rem;
+}
+.card {
+  display: flex;
+  overflow-x: scroll;
+}
+.container-card {
+  inline-size: 12.125rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-card img {
+  padding-block: 1rem;
+}
+.container-card h3 {
+  font: var(--Body1-Bold);
+  color: var(--cocoa-brown);
+  text-align: center;
+}
+.container-card h3 span {
+  color: var(--Boulder);
+  text-decoration: line-through;
+}
+.container-card h4 {
+  font: var(--Body2-Regular);
+  color: var(--cocoa-brown);
+  text-align: center;
+}
+.card-percent {
+  color: var(--Purple);
+  font: var(--Caption-Bold);
+  background-color: var(--Purple-bg);
+  padding: 0.25rem;
+  border-radius: 1rem;
+  position: absolute;
+}

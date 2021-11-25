@@ -1,0 +1,29 @@
+:root {
+  --white: #fefefe;
+  --Malachite: #0ac763;
+  --silver: #bdbcbc;
+  --cocoa-brown: #332927;
+  --Black: #333333;
+  --Boulder: #b8b4b4;
+  --Scarlet: #ff1f18;
+  --Cobalt: #0252bc;
+  --Purple-bg: #f0e3fe;
+  --Purple: #5e18bb;
+  --logo: 900 1.375rem/1rem Inter;
+  --Headline1: 600 1.75rem/2.625rem Poppins;
+  --Headline2: 600 1.25rem/1.375rem Poppins;
+
+  --Body1-Bold: 700 1rem/1.5rem Poppins;
+  --Body1-Regular: 400 1rem/1.5rem Poppins;
+  --Body2-Bold: 700 0.875rem/1.5rem Poppins;
+  --Body2-Regular: 400 0.875rem/1.5rem Poppins;
+  --Caption-Bold: 600 0.75rem/1rem Poppins;
+  --Caption-Regular: 400 0.75rem/1rem Poppins;
+  --Button: 400 0.875rem/1rem Poppins;
+}
+
+body {
+  margin: 0;
+  background-color: #fafaf8;
+  counter-reset: tienda;
+}

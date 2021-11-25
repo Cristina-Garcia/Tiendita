@@ -1,0 +1,21 @@
+.button-primary.is-select:active {
+  counter-increment: tienda;
+}
+
+.button-primary {
+  background-color: var(--Malachite);
+  border: none;
+  padding-inline: 4.28rem;
+  border-radius: 0.25rem;
+  color: var(--white);
+  padding-block: 0.75rem;
+  cursor: pointer;
+}
+
+.button-primary.is-icon {
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+}
+.button-primary.is-icon::after {
+  content: counter(tienda);
+}
