@@ -1,52 +1,66 @@
-.container-products {
-  margin: 1.5rem;
-}
+/* .container-products {
+   margin: 1.5rem; 
+  overflow: hidden;
+} */
+
 .card-products {
   display: flex;
   flex-direction: column;
   background-color: var(--white);
   border-radius: 1rem;
-  border: 1px solid red;
-  margin: 1.5rem;
+  /* border: 1px solid red; */
+  margin-inline: 2.5rem;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.container-products h2 {
+.card-products h2 {
   font: var(--Headline2);
   padding: 0;
   margin: 1.5rem;
 }
 .card {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
+  margin-inline: 1.5rem;
+  gap: 3rem;
 }
+
 .container-card {
-  inline-size: 12.125rem;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: auto 12.125rem 7rem auto;
+  /* place-self: center; */
+  gap: 1rem;
+  justify-content: center;
 }
-.container-card img {
-  padding-block: 1rem;
-}
-.container-card h3 {
+
+.card-description h3 {
   font: var(--Body1-Bold);
   color: var(--cocoa-brown);
   text-align: center;
+  margin: 0;
 }
-.container-card h3 span {
+.card-description h3 span {
   color: var(--Boulder);
   text-decoration: line-through;
 }
-.container-card h4 {
+.card-description h4 {
   font: var(--Body2-Regular);
   color: var(--cocoa-brown);
   text-align: center;
+  margin: 0;
 }
-.card-percent {
-  color: var(--Purple);
-  font: var(--Caption-Bold);
-  background-color: var(--Purple-bg);
-  padding: 0.25rem;
-  border-radius: 1rem;
+/* .card-percent {
   position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.card-percent {
+  justify-self: flex-start;
+}
+
+.button-access {
+  justify-self: center;
+  position: relative;
+  z-index: 1;
 }

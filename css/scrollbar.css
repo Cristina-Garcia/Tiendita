@@ -1,24 +1,11 @@
-/* ::-webkit-scrollbar {
-  background: var(--silver);
-  inline-size: 0.5rem;
-  block-size: 0.5rem;
-} */
-/* .page::-webkit-scrollbar-thumb:vertical {
-  background: var(--silver);
-} */
-/* .card::-webkit-scrollbar-thumb:horizontal:hover {
-  background: var(--Boulder);
-} */
-/* ::-webkit-scrollbar {
-  background: var(--Boulder);
+::-webkit-scrollbar {
+  background: var(--white);
+
   inline-size: 0.5rem;
   block-size: 0.5rem;
 }
-
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  border-radius: 0.5rem;
   background: var(--silver);
 }
-
-::-webkit-scrollbar-track {
-  background: var(--gray50);
-} */

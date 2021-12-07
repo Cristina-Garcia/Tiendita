@@ -1,8 +1,7 @@
 .page {
   display: grid;
-  grid-template-rows: auto auto 70rem;
+  grid-template-rows: auto auto 33rem 33rem;
   width: 100%;
   block-size: 100vh;
   gap: 2.5rem;
-  flex-shrink: inherit;
 }

@@ -18,5 +18,5 @@
   font: var(--Headline1);
   color: var(--white);
   padding-block: 6.5rem;
-  padding-inline: 15.312rem;
+  /* padding-inline: 15.312rem; */
 }

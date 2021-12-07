@@ -8,6 +8,8 @@
   padding-inline: 2.5rem;
   padding-block: 1.5rem;
   background-color: var(--white);
+  border-block-end: 1px solid var(--Purple-bg);
+  counter-reset: score;
 }
 .header h1 {
   color: var(--Scarlet);

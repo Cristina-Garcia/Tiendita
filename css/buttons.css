@@ -12,10 +12,19 @@
   cursor: pointer;
 }
 
-.button-primary.is-icon {
+.button-primary.total-acount {
   padding-block: 0.5rem;
   padding-inline: 1.5rem;
 }
-.button-primary.is-icon::after {
-  content: counter(tienda);
+.total-acount::after {
+  content: counter(score);
+}
+.button-percent {
+  color: var(--Purple);
+  font: var(--Caption-Bold);
+  background-color: var(--Purple-bg);
+  padding: 0.25rem;
+  /* margin-block-end: 1rem; */
+  border-radius: 1rem;
+  border: none;
 }

@@ -1,0 +1,15 @@
+.total-acount::after {
+  content: counter(score);
+}
+.button-acces input:checked {
+  counter-increment: score;
+}
+.button-access input[type="checkbox"] {
+  position: absolute;
+  appearance: none;
+  cursor: pointer;
+  z-index: 1;
+  width: 80%;
+  height: 40px;
+  border: 1px solid red;
+}
