@@ -1,20 +1,38 @@
 @import "./ellipsis.css";
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding-inline: 2.5rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr auto auto;
+  place-self: center;
+  gap: 1rem;
   padding-block: 1.5rem;
   background-color: var(--white);
   border-block-end: 1px solid var(--Purple-bg);
-  counter-reset: score;
 }
+
 .header h1 {
   color: var(--Scarlet);
   font: var(--logo);
+  font-style: italic;
+  justify-content: flex-start;
+  padding-inline-start: 2.5rem;
 }
 .header-container.icon-active {
   color: var(--Scarlet);
+}
+.header-ubication {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button-primary.total-acount {
+  justify-content: flex-start;
+  margin-inline-end: 2.5rem;
+}
+
+.header-ubication i:nth-child(1) {
+  color: var(--Scarlet);
+  cursor: pointer;
 }

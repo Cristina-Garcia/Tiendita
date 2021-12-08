@@ -1,5 +1,6 @@
 .banner {
   display: flex;
+  height: 15.5rem;
   background-image: url(../image/Banner.png);
   background-position: center;
   background-size: cover;
@@ -7,16 +8,10 @@
   justify-content: center;
   align-items: center;
   margin-inline: 2.5rem;
-  /* width: 80.375rem;
-  height: 15.625rem;
-  position: absolute;
-  top: 100px;
-  left: 40px; */
 }
 
 .banner h1 {
   font: var(--Headline1);
   color: var(--white);
-  padding-block: 6.5rem;
-  /* padding-inline: 15.312rem; */
+  text-align: center;
 }

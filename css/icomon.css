@@ -53,7 +53,7 @@
 .icon-radio-button-active .path2:before {
   content: "\e907";
   margin-left: -1em;
-  color: rgb(10, 199, 99);
+  color: rgb(8, 8, 8);
 }
 .icon-radio-button-default:before {
   content: "\e908";
