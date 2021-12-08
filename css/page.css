@@ -2,6 +2,7 @@
   display: grid;
   grid-template-rows: auto auto 33rem 33rem;
   width: 100%;
-  block-size: 100vh;
+  block-size: 100%;
   gap: 2.5rem;
+  position: relative;
 }
