@@ -36,3 +36,10 @@
   color: var(--Scarlet);
   cursor: pointer;
 }
+
+.nameUbication {
+  border-inline-end: 1px solid var(--silver);
+  font: var(--Body1-Bold);
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 1rem;
+}

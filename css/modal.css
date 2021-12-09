@@ -1,15 +1,19 @@
 @import "./modal-content.css";
 
 .modal {
-  /* display: grid; */
+  display: grid;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 3;
-  /* place-self: center; */
+  /* overflow: auto; */
+  place-items: center;
 }
 
-/* .hidden {
+.visible {
+  display: grid;
+}
+.hidden {
   display: none;
-} */
+}

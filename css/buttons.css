@@ -1,7 +1,3 @@
-.button-primary.is-select:active {
-  counter-increment: tienda;
-}
-
 .button-primary {
   background-color: var(--Malachite);
   border: none;
@@ -12,11 +8,16 @@
   cursor: pointer;
 }
 
-.button-primary.total-acount {
+.buttonTotal-acount {
   padding-block: 0.5rem;
   padding-inline: 1.5rem;
+  background-color: var(--Malachite);
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--white);
+  cursor: pointer;
 }
-.total-acount::after {
+.buttonTotal-acount::after {
   content: counter(score);
 }
 .button-percent {

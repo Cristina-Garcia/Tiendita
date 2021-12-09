@@ -1,13 +1,13 @@
 .modal-content {
+  display: grid;
   width: 80%;
-  height: 25%;
-  grid-template-rows: 1fr 1fr;
+  height: 65%;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 1.5rem;
   background: var(--white);
   position: relative;
-  overflow: auto;
 
-  /* place-self: center; */
+  border-radius: 1rem;
 }
 
 .modal-content-close {
