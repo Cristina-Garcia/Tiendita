@@ -1,12 +1,12 @@
 .modal-content {
   display: grid;
   width: 80%;
-  height: 65%;
+  height: 70%;
   /* grid-template-rows: 1fr 1fr; */
   gap: 1.5rem;
   background: var(--white);
   position: relative;
-
+  place-self: center;
   border-radius: 1rem;
 }
 
